@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+nav{
+    display: flex;
+    background-color: rgb(83, 63, 241);
+    background-image: radial-gradient(circle at top right, #fda500, transparent 80%);;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    display: inline;
+
+}
+a{
+    text-decoration: none;
+    color: palegreen;
+}
+
+header{
+    display: flex;
+    background-color: rgb(83, 63, 241);
+}
+header .profile{
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 108, 179);
+}
+
+header .title{
+    width: 100%;
+    background-color: rgb(72, 85, 202);
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+header .title main a{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header .title sub p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header .profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 10% 20%;
+}
+.title main, .title .sub{
+    display: flex;
+    margin-left: 20px;
+}
+
+header .title  .main p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+header .title .main span{
+    color: rgb(0, 255, 221);
+}
+
+header .title .sub p{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+section.main{
+    display: flex;   
+    flex-direction: column;
+    background-color: rgb(22, 245, 141);
+    width: 100%;
+}
+section.main .post1{
+    display: flex;
+}
+section.main .post1 img{
+    width: 40%;
+}
+section.main .post1 .exp{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Setting Content */
+
+.post1 img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 10% 50%;
+    margin: 20px;
+    border-radius: 20px;
+}
+.post1 p{
+    justify-content: center;
+    display: flex;
+  }
+
+section.main h1{
+    margin-left: 20px;
+}
+
+
+
+
+/* Setting Content */
+footer{
+    width: 100%;/* lebar 100 persen */
+    height: fit-content;/* sesuaikan tinggi dengan ini */
+    padding-top: 30px;/* jarak dalam atas tambah */
+    padding-bottom: 30px;/* jarak dalam bawah tanah */
+    position: sticky;/* lengket, tidak kesana kemari */
+    bottom: 0;/* atur posisi dari bawah sehingga 0*/
+    background-color: blueviolet;/* latar chocolate*/
+    color: beige;/* isinya beige */
+    display: flex;/*di penuhin kanan kiri */
+    justify-content: center;/* konten ketengahin sesuai alur */
+}
+
+
+/* Setting Content */
+/* Setting Content */
